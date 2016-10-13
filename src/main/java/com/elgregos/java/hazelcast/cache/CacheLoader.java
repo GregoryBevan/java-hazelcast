@@ -1,0 +1,27 @@
+package com.elgregos.java.hazelcast.cache;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.elgregos.java.hazelcast.aspect.LogTime;
+
+@Service
+public class CacheLoader {
+
+	@Autowired
+	private SimpleEntityCache simpleEntityCache;
+
+	@Autowired
+	private CompositeKeyEntityCache compositeKeyEntityCache;
+
+	@Autowired
+	private HierarchyValueCache hierarchyValueCache;
+
+	@LogTime
+	public void loadCache() {
+		simpleEntityCache.loadCache();
+		compositeKeyEntityCache.loadCache();
+		hierarchyValueCache.loadCache();
+	}
+
+}
