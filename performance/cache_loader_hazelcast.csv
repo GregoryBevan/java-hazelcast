@@ -1,0 +1,296 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,grpThreads,allThreads,Latency,IdleTime
+1476430010660,1002,Load cache request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Permission denied: connect,Cache loader 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[200                                             ]]]
+
+/",2202,1,1,0,0
+1476430012666,1001,Load cache request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Permission denied: connect,Cache loader 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[200                                             ]]]
+
+/",2202,1,1,0,0
+1476430014669,1000,Load cache request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Permission denied: connect,Cache loader 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[200                                             ]]]
+
+/",2202,1,1,0,0
+1476430016670,1002,Load cache request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Permission denied: connect,Cache loader 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[200                                             ]]]
+
+/",2202,1,1,0,0
+1476430018684,1003,Load cache request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Permission denied: connect,Cache loader 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[200                                             ]]]
+
+/",2202,1,1,0,0
+1476430020689,1001,Load cache request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Permission denied: connect,Cache loader 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[200                                             ]]]
+
+/",2202,1,1,0,0
+1476430022693,1002,Load cache request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Permission denied: connect,Cache loader 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[200                                             ]]]
+
+/",2202,1,1,0,0
+1476430024700,1002,Load cache request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Permission denied: connect,Cache loader 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[200                                             ]]]
+
+/",2202,1,1,0,0
+1476430026705,1002,Load cache request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Permission denied: connect,Cache loader 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[200                                             ]]]
+
+/",2202,1,1,0,0
+1476430028709,1003,Load cache request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Permission denied: connect,Cache loader 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[200                                             ]]]
+
+/",2202,1,1,0,0
+1476430030716,1017,Load cache request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Permission denied: connect,Cache loader 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[200                                             ]]]
+
+/",2202,1,1,0,0
+1476430032736,1002,Load cache request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Permission denied: connect,Cache loader 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[200                                             ]]]
+
+/",2202,1,1,0,0
+1476430034742,1002,Load cache request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Permission denied: connect,Cache loader 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[200                                             ]]]
+
+/",2202,1,1,0,0
+1476430036750,1002,Load cache request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Permission denied: connect,Cache loader 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[200                                             ]]]
+
+/",2202,1,1,0,0
+1476430038755,1003,Load cache request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Permission denied: connect,Cache loader 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[200                                             ]]]
+
+/",2202,1,1,0,0
+1476430051929,16581,Load cache request,200,,Cache loader 1-1,text,true,,126,1,1,16581,0
+1476430068745,13278,Load cache request,200,,Cache loader 1-1,text,true,,126,1,1,13278,0
+1476430082220,7442,Load cache request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Connection reset,Cache loader 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.SocketException]]]
+
+****** comparison: [[[200                                             ]]]
+
+/",2633,1,1,0,0
+1476430091665,2002,Load cache request,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Cache loader 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.ConnectException]]]
+
+****** comparison: [[[200                                              ]]]
+
+/",2204,1,1,0,0
+1476430095670,2003,Load cache request,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Cache loader 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.ConnectException]]]
+
+****** comparison: [[[200                                              ]]]
+
+/",2204,1,1,0,0
+1476430099675,2002,Load cache request,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Cache loader 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.ConnectException]]]
+
+****** comparison: [[[200                                              ]]]
+
+/",2204,1,1,0,0
+1476430103679,2002,Load cache request,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Cache loader 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.ConnectException]]]
+
+****** comparison: [[[200                                              ]]]
+
+/",2204,1,1,0,0
+1476430107685,2002,Load cache request,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Cache loader 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.ConnectException]]]
+
+****** comparison: [[[200                                              ]]]
+
+/",2204,1,1,0,0
+1476430111692,2003,Load cache request,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Cache loader 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.ConnectException]]]
+
+****** comparison: [[[200                                              ]]]
+
+/",2204,1,1,0,0
+1476430115695,2003,Load cache request,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Cache loader 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.ConnectException]]]
+
+****** comparison: [[[200                                              ]]]
+
+/",2204,1,1,0,0
+1476430119700,2002,Load cache request,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Cache loader 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.ConnectException]]]
+
+****** comparison: [[[200                                              ]]]
+
+/",2204,1,1,0,0
+1476430123709,2003,Load cache request,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Cache loader 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.ConnectException]]]
+
+****** comparison: [[[200                                              ]]]
+
+/",2204,1,1,0,0
+1476430127715,2001,Load cache request,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Cache loader 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.ConnectException]]]
+
+****** comparison: [[[200                                              ]]]
+
+/",2204,1,1,0,0
+1476430131722,2011,Load cache request,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Cache loader 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.ConnectException]]]
+
+****** comparison: [[[200                                              ]]]
+
+/",2204,1,1,0,0
+1476430135736,2006,Load cache request,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Cache loader 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.ConnectException]]]
+
+****** comparison: [[[200                                              ]]]
+
+/",2204,1,1,0,0
+1476430139745,2004,Load cache request,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Cache loader 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.ConnectException]]]
+
+****** comparison: [[[200                                              ]]]
+
+/",2204,1,1,0,0
+1476430143765,2003,Load cache request,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Cache loader 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.ConnectException]]]
+
+****** comparison: [[[200                                              ]]]
+
+/",2204,1,1,0,0
+1476430147772,2002,Load cache request,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Cache loader 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.ConnectException]]]
+
+****** comparison: [[[200                                              ]]]
+
+/",2204,1,1,0,0
+1476430151778,2001,Load cache request,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Cache loader 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.ConnectException]]]
+
+****** comparison: [[[200                                              ]]]
+
+/",2204,1,1,0,0
+1476430155781,2003,Load cache request,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused: connect,Cache loader 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.ConnectException]]]
+
+****** comparison: [[[200                                              ]]]
+
+/",2204,1,1,0,0
+1476431659617,14469,Load cache request,200,,Cache loader 1-1,text,true,,126,1,1,14469,0
+1476431674369,12439,Load cache request,200,,Cache loader 1-1,text,true,,126,1,1,12439,0
+1476431687009,12306,Load cache request,200,,Cache loader 1-1,text,true,,126,1,1,12306,0
+1476431699548,12319,Load cache request,200,,Cache loader 1-1,text,true,,126,1,1,12319,0
+1476431712099,12950,Load cache request,200,,Cache loader 1-1,text,true,,126,1,1,12950,0
+1476431725287,12676,Load cache request,200,,Cache loader 1-1,text,true,,126,1,1,12676,0
+1476431738217,13121,Load cache request,200,,Cache loader 1-1,text,true,,126,1,1,13121,0
+1476431751529,11880,Load cache request,200,,Cache loader 1-1,text,true,,126,1,1,11880,0
+1476431763674,13012,Load cache request,200,,Cache loader 1-1,text,true,,126,1,1,13012,0
+1476431776946,12745,Load cache request,200,,Cache loader 1-1,text,true,,126,1,1,12745,0
+1476431789891,14291,Load cache request,200,,Cache loader 1-1,text,true,,126,1,1,14291,0
+1476431804334,12399,Load cache request,200,,Cache loader 1-1,text,true,,126,1,1,12399,0
+1476431816980,12535,Load cache request,200,,Cache loader 1-1,text,true,,126,1,1,12535,0
+1476431829735,13190,Load cache request,200,,Cache loader 1-1,text,true,,126,1,1,13190,0
+1476431843124,14232,Load cache request,200,,Cache loader 1-1,text,true,,126,1,1,14232,0
+1476431857534,15274,Load cache request,200,,Cache loader 1-1,text,true,,126,1,1,15274,0
+1476431872957,14594,Load cache request,200,,Cache loader 1-1,text,true,,126,1,1,14594,0
+1476431887802,11328,Load cache request,200,,Cache loader 1-1,text,true,,126,1,1,11328,0
+1476431899373,14061,Load cache request,200,,Cache loader 1-1,text,true,,126,1,1,14061,0
+1476431913671,12766,Load cache request,200,,Cache loader 1-1,text,true,,126,1,1,12766,0
+1476433642568,236,Flush cache request,200,,Cache loader 1-1,text,true,,127,1,1,236,0
+1476433642804,14711,Load cache request,200,,Cache loader 1-1,text,true,,126,1,1,14711,0
+1476433660973,230,Flush cache request,200,,Cache loader 1-1,text,true,,127,1,1,230,0
+1476433661203,14604,Load cache request,200,,Cache loader 1-1,text,true,,126,1,1,14604,0
+1476433675807,254,Flush cache request,200,,Cache loader 1-1,text,true,,127,1,1,254,0
+1476433676062,12674,Load cache request,200,,Cache loader 1-1,text,true,,126,1,1,12674,0
+1476433688736,217,Flush cache request,200,,Cache loader 1-1,text,true,,127,1,1,217,0
+1476433688953,12437,Load cache request,200,,Cache loader 1-1,text,true,,126,1,1,12437,0
+1476433701390,218,Flush cache request,200,,Cache loader 1-1,text,true,,127,1,1,218,0
+1476433701608,13406,Load cache request,200,,Cache loader 1-1,text,true,,126,1,1,13406,0
+1476433715014,225,Flush cache request,200,,Cache loader 1-1,text,true,,127,1,1,225,0
+1476433715239,11806,Load cache request,200,,Cache loader 1-1,text,true,,126,1,1,11806,0
+1476433727045,159,Flush cache request,200,,Cache loader 1-1,text,true,,127,1,1,159,0
+1476433727204,12308,Load cache request,200,,Cache loader 1-1,text,true,,126,1,1,12308,0
+1476433739511,185,Flush cache request,200,,Cache loader 1-1,text,true,,127,1,1,185,0
+1476433739696,12332,Load cache request,200,,Cache loader 1-1,text,true,,126,1,1,12332,0
+1476433752029,208,Flush cache request,200,,Cache loader 1-1,text,true,,127,1,1,208,0
+1476433752238,11635,Load cache request,200,,Cache loader 1-1,text,true,,126,1,1,11635,0
+1476433763873,220,Flush cache request,200,,Cache loader 1-1,text,true,,127,1,1,220,0
+1476433764093,12801,Load cache request,200,,Cache loader 1-1,text,true,,126,1,1,12801,0
+1476433776894,165,Flush cache request,200,,Cache loader 1-1,text,true,,127,1,1,165,0
+1476433777059,11925,Load cache request,200,,Cache loader 1-1,text,true,,126,1,1,11925,0
+1476433788983,181,Flush cache request,200,,Cache loader 1-1,text,true,,127,1,1,181,0
+1476433789164,13641,Load cache request,200,,Cache loader 1-1,text,true,,126,1,1,13641,0
+1476433802807,245,Flush cache request,200,,Cache loader 1-1,text,true,,127,1,1,245,0
+1476433803052,12583,Load cache request,200,,Cache loader 1-1,text,true,,126,1,1,12583,0
+1476433815634,250,Flush cache request,200,,Cache loader 1-1,text,true,,127,1,1,250,0
+1476433815884,12323,Load cache request,200,,Cache loader 1-1,text,true,,126,1,1,12323,0
+1476433828208,152,Flush cache request,200,,Cache loader 1-1,text,true,,127,1,1,152,0
+1476433828360,13539,Load cache request,200,,Cache loader 1-1,text,true,,126,1,1,13539,0
+1476433841900,218,Flush cache request,200,,Cache loader 1-1,text,true,,127,1,1,218,0
+1476433842118,12163,Load cache request,200,,Cache loader 1-1,text,true,,126,1,1,12163,0
+1476433854281,219,Flush cache request,200,,Cache loader 1-1,text,true,,127,1,1,219,0
+1476433854500,12084,Load cache request,200,,Cache loader 1-1,text,true,,126,1,1,12084,0
+1476433866584,205,Flush cache request,200,,Cache loader 1-1,text,true,,127,1,1,205,0
+1476433866789,12865,Load cache request,200,,Cache loader 1-1,text,true,,126,1,1,12865,0
+1476433879655,246,Flush cache request,200,,Cache loader 1-1,text,true,,127,1,1,246,0
+1476433879902,12276,Load cache request,200,,Cache loader 1-1,text,true,,126,1,1,12276,0
+1476433892178,167,Flush cache request,200,,Cache loader 1-1,text,true,,127,1,1,167,0
+1476433892346,13125,Load cache request,200,,Cache loader 1-1,text,true,,126,1,1,13125,0
+1476433905471,176,Flush cache request,200,,Cache loader 1-1,text,true,,127,1,1,176,0
+1476433905647,13577,Load cache request,200,,Cache loader 1-1,text,true,,126,1,1,13577,0

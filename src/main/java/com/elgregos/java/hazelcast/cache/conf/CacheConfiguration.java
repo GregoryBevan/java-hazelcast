@@ -1,5 +1,6 @@
 package com.elgregos.java.hazelcast.cache.conf;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -14,11 +15,14 @@ import com.hazelcast.core.HazelcastInstance;
 @Configuration
 public class CacheConfiguration {
 
+	@Value("${hazelcast.host:127.0.0.1}")
+	private String hazelcastHost;
+
 	@Bean
 	ClientConfig clientConfig() {
 		final ClientConfig clientConfig = new ClientConfig();
-		clientConfig.setInstanceName("localhost");
-		clientConfig.getNetworkConfig().addAddress("localhost:5701");
+		clientConfig.setInstanceName("Hazelcast");
+		clientConfig.getNetworkConfig().addAddress(hazelcastHost.concat(":5701"));
 		return clientConfig;
 	}
 

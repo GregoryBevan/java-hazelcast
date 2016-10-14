@@ -33,6 +33,10 @@ public class HierarchyValueCache {
 
 	private IMap<Long, HierarchyValue> map;
 
+	public void clear() {
+		map.clear();
+	}
+
 	@LogTime
 	public HierarchyValue getById(Long id) {
 		return map.get(id);

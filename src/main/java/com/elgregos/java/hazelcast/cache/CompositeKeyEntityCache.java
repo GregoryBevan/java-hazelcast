@@ -30,6 +30,10 @@ public class CompositeKeyEntityCache {
 
 	private IMap<DoubleKey, CompositeKeyEntity> map;
 
+	public void clear() {
+		map.clear();
+	}
+
 	@LogTime
 	public CompositeKeyEntity get(DoubleKey key) {
 		return map.get(key);

@@ -29,6 +29,10 @@ public class SimpleEntityCache {
 
 	private IMap<String, SimpleEntity> map;
 
+	public void clear() {
+		map.clear();
+	}
+
 	@LogTime
 	public SimpleEntity get(String code) {
 		return map.get(code);
