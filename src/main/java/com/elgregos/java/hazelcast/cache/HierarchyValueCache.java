@@ -1,7 +1,9 @@
 package com.elgregos.java.hazelcast.cache;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
@@ -38,8 +40,22 @@ public class HierarchyValueCache {
 	}
 
 	@LogTime
-	public HierarchyValue getById(Long id) {
+	public HierarchyValue get(Long id) {
 		return map.get(id);
+	}
+
+	@LogTime
+	public List<HierarchyValue> getWithMultiGet(List<Long> randomIds) {
+		final List<HierarchyValue> hierarchyValues = new ArrayList<>(randomIds.size());
+		for (final Long id : randomIds) {
+			hierarchyValues.add(map.get(id));
+		}
+		return hierarchyValues;
+	}
+
+	@LogTime
+	public List<HierarchyValue> getWithOneGet(Set<Long> randomIds) {
+		return new ArrayList<>(map.getAll(randomIds).values());
 	}
 
 	@PostConstruct

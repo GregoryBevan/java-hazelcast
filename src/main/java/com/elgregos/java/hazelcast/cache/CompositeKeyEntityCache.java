@@ -1,7 +1,9 @@
 package com.elgregos.java.hazelcast.cache;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
@@ -42,6 +44,20 @@ public class CompositeKeyEntityCache {
 	@LogTime
 	public List<CompositeKeyEntity> getAllFromCache() {
 		return map.values().stream().collect(Collectors.toList());
+	}
+
+	@LogTime
+	public List<CompositeKeyEntity> getWithMultiGet(List<DoubleKey> randomDoubleKeys) {
+		final List<CompositeKeyEntity> compositeKeyEntities = new ArrayList<>(randomDoubleKeys.size());
+		for (final DoubleKey doubleKey : randomDoubleKeys) {
+			compositeKeyEntities.add(map.get(doubleKey));
+		}
+		return compositeKeyEntities;
+	}
+
+	@LogTime
+	public List<CompositeKeyEntity> getWithOneGet(Set<DoubleKey> randomDoubleKeys) {
+		return new ArrayList<>(map.getAll(randomDoubleKeys).values());
 	}
 
 	@PostConstruct

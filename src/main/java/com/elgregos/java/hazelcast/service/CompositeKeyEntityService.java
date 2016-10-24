@@ -1,5 +1,7 @@
 package com.elgregos.java.hazelcast.service;
 
+import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,6 +33,30 @@ public class CompositeKeyEntityService {
 
 	public CompositeKeyEntity loadFromCache(DoubleKey key) {
 		return cache.get(key);
+	}
+
+	public void testMulti(Long number) {
+		final List<DoubleKey> randomDoubleKeys = getDoubleKeys(number);
+		final List<CompositeKeyEntity> withOneGet = cache.getWithOneGet(new HashSet<>(randomDoubleKeys));
+		final List<CompositeKeyEntity> withMultiGet = cache.getWithMultiGet(randomDoubleKeys);
+		System.out.println("Sizes : " + withOneGet.size() + " & " + withMultiGet.size());
+
+	}
+
+	private List<DoubleKey> getDoubleKeys(Long number) {
+		final List<DoubleKey> doubleKeys = new ArrayList<>();
+		char currentFirstCode = 'A';
+		int currentSecondCode = 0;
+		for (int i = 1; i <= number; i++) {
+			doubleKeys.add(new DoubleKey(String.valueOf(currentFirstCode), String.valueOf(currentSecondCode)));
+			if (currentSecondCode == 9999) {
+				currentFirstCode = (char) (currentFirstCode + 1);
+				currentSecondCode = 0;
+				continue;
+			}
+			currentSecondCode += 1;
+		}
+		return doubleKeys;
 	}
 
 }
